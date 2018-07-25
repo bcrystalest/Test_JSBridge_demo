@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AppDelegate changeUserAgent]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[NSUserDefaults standardUserDefaults] objectForKey:@&quot;UserAgent&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RootViewController clickHistoryBtn]:RootViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.historyArray">
+            </PersistentString>
+            <PersistentString
+               value = "vc.dataArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[configurationVC pushAction]:configurationVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.webViewUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JS_HistoryVCViewController viewDidLoad]:JS_HistoryVCViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JS_HistoryVCViewController tableView:numberOfRowsInSection:]:JS_HistoryVCViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RootViewController addDataToArray:]:RootViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.historyArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[configurationVC alertView:clickedButtonAtIndex:]:configurationVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "txt.tex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
