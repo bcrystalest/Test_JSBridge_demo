@@ -97,9 +97,7 @@
 - (void)loadExamplePage
 {
     NSLog(@"showWebViewURL======================%@",_webViewUrl);
-//    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@",_webViewUrl]];
-    
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://bcrystalest.github.io/testJavascript_bridge.htm"]];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@",_webViewUrl]];    
     _mainWebView.delegate = self;
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:10];
     [request setValue:@"https://www.sonystyle.com.cn/" forHTTPHeaderField:@"referer"];
